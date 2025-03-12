@@ -1,5 +1,5 @@
 import Cart from "@/components/layout/cart";
-import "./globals.css";
+import "../styles/globals.css";
 import Footer from "@/components/layout/footer";
 import Navbar from "@/components/layout/navbar";
 import MobileNav from "@/components/layout/mobile-nav";
