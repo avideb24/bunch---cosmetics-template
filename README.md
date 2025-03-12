@@ -31,13 +31,44 @@ Thank you for purchasing the **Bunch Cosmetics Template**! This file provides a 
 /src/
   ├── /app/             # Next.js pages
   ├── /components/      # UI components
-  ├── /assets/          # Icon and images
+  ├── /assets/          # Icons and images
   ├── /styles/          # Global CSS & Tailwind styles
   ├── /utils/           # Data / Helper functions
-  ├── /config/          # Config data files
+  ├── /config/          # Configuration files
 /LICENSE.txt            # License file
 /README.md              # Quick setup guide
 ```
+
+## Customization
+### Changing Colors and Fonts
+Modify Tailwind configuration in `tailwind.config.js`:
+```js
+module.exports = {
+  theme: {
+    extend: {
+      fontFamily: {
+        Jost: ['Jost', 'sans-serif'],
+        Monomakh: ['Monomakh', 'sans-serif'],
+      },
+      colors: {
+        primary: "#ff3d71",
+        secondary: "",
+        light: "#fff",
+        dark: "#1a1a1a",
+      },
+    },
+  },
+};
+```
+Change fonts in `globals.css`:
+```css
+body {
+  font-family: 'Poppins', sans-serif;
+}
+```
+
+### Editing Content
+All content files are located in `components/` and `pages/` directories. Modify them as needed.
 
 ## Deployment
 For production:
@@ -45,6 +76,18 @@ For production:
 npm run build
 npm start
 ```
+For Vercel:
+```bash
+vercel deploy
+```
+For Netlify:
+```bash
+netlify deploy
+```
+
+## Asset Licensing
+For licensing details of the fonts, images, and icons used in this project, please refer to the `LICENSE.txt` file.
+
 
 ## Support
 For any issues, contact support at:
