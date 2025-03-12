@@ -27,15 +27,16 @@ Thank you for purchasing the **Bunch Cosmetics Template**! This file provides a 
 
 ## Folder Structure
 ```
-/public/        # Static assets
+/public/DOCUMENTATION   # Full documentation
 /src/
-  ├── /components/    # UI components
-  ├── /pages/         # Next.js pages
-  ├── /styles/        # Global CSS & Tailwind styles
-  ├── /utils/         # Helper functions
-/LICENSE.txt     # License file
-/README.md       # Quick setup guide
-/DOCUMENTATION/  # Full documentation
+  ├── /app/             # Next.js pages
+  ├── /components/      # UI components
+  ├── /assets/          # Icon and images
+  ├── /styles/          # Global CSS & Tailwind styles
+  ├── /utils/           # Data / Helper functions
+  ├── /config/          # Config data files
+/LICENSE.txt            # License file
+/README.md              # Quick setup guide
 ```
 
 ## Deployment
