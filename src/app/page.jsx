@@ -8,6 +8,7 @@ import { allProducts } from "@/utils/allProducts";
 import About from "@/components/page-comp/home/about";
 import Hero from "@/components/page-comp/home/hero";
 import { metadataConfig } from "@/config/metadataConfig";
+import Testimonial from "@/components/reusuable/testimonials";
 
 export const metadata = metadataConfig.home;
 
@@ -44,14 +45,22 @@ const HomePage = () => {
         <Collections title={"Featured Products"} products={products} filter={true} button={true} />
       </div>
 
+      {/* about section */}
       <div className="section-padding !pb-0">
         <About />
       </div>
 
+      {/* testimonial */}
+      <div className="section-padding">
+        <Testimonial />
+      </div>
+
+      {/* hero section */}
       <div>
         <Hero />
       </div>
 
+      {/* services section */}
       <div className="section-padding">
         <ServiceBenefits />
       </div>
