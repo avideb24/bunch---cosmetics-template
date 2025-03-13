@@ -1,7 +1,7 @@
-# Bunch Cosmetics Template  
+# Glowique Cosmetics Template  
 **Developed by Vida Technology Ltd.**  
 
-Thank you for purchasing the **Bunch Cosmetics Template**! This file provides a quick start guide.
+Thank you for purchasing the **Glowique Cosmetics Template**! This file provides a quick start guide.
 
 ## Live Demo
 [View Live Site](https://bunch-cosmetics-template.vercel.app/)
@@ -14,7 +14,7 @@ Thank you for purchasing the **Bunch Cosmetics Template**! This file provides a 
    ```
 3. Navigate into the project folder:
    ```bash
-   cd bunch---cosmetics-template
+   cd Glowique---cosmetics-template
    ```
 4. Install dependencies:
    ```bash

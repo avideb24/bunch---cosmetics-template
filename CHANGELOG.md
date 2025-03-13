@@ -1,7 +1,7 @@
 # Changelog
 
 ## v1.0.0 - Initial Release (2025-03-12)
-- First stable release of the Bunch - Cosmetics Template.
+- First stable release of the Glowique - Cosmetics Template.
 - Built with Next.js and Tailwind CSS.
 - Features:
   - Responsive e-commerce UI

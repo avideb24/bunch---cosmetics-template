@@ -38,7 +38,7 @@ const Footer = () => {
                                 {
                                     socialLinks?.map(item =>
                                         <Link href={item?.href || '/'} key={item?.id} className="w-fit overflow-hidden">
-                                           {item?.icon}
+                                            {item?.icon}
                                         </Link>
                                     )
                                 }
@@ -87,11 +87,11 @@ const Footer = () => {
                                 </Link> */}
                                 <Link href={'mailTo:info@vida.com.bd'} className="flex items-center gap-2 hover:underline">
                                     <Mail />
-                                    info@bunch.com
+                                    info@vida.com.bd
                                 </Link>
                                 <Link href={'mailTo:support@vida.com.bd'} className="flex items-center gap-2 hover:underline">
                                     <Mail />
-                                    support@bunch.com
+                                    support@vida.com.bd
                                 </Link>
                             </div>
                         </div>

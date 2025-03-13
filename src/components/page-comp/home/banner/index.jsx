@@ -22,7 +22,7 @@ const Banner = () => {
         {
             id: 2,
             href: "/",
-            upText: "COLLECTION BUNCH",
+            upText: "COLLECTION Glowique",
             title: "Your Skin's Best Solution for Every Concern",
             text: "Bring your love to life with a handcrafted design that perfectly suits your relationship, budget, and style.",
             image: bannerBg2,
