@@ -63,7 +63,7 @@ module.exports = {
 Change fonts in `globals.css`:
 ```css
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Jost", serif;
 }
 ```
 
