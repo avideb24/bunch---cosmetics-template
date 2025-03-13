@@ -1,7 +1,7 @@
 import logo from "@/assets/images/logo.png";
 
 export const siteConfig = {
-    companyName: "Bunch",
+    companyName: "Glowique ",
     headerLogo: logo,
     footerLogo: logo,
     phonePrimary: "+8801641443111", 
