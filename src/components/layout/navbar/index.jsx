@@ -26,7 +26,7 @@ const Navbar = () => {
         { id: 1, title: 'Home', href: '/' },
         { id: 2, title: 'Collections', href: '/collections' },
         { id: 3, title: 'About', href: '/about' },
-        { id: 4, title: 'Contact', href: '/contact' },
+        { id: 4, title: 'Contact Us', href: '/contact' },
         { id: 5, title: 'Terms & Conditions', href: '/terms-and-conditions' },
         { id: 6, title: 'Privacy Policy', href: '/privacy-policy' },
     ];

@@ -4,6 +4,7 @@ import Footer from "@/components/layout/footer";
 import Navbar from "@/components/layout/navbar";
 import MobileNav from "@/components/layout/mobile-nav";
 import { metadataConfig } from "@/config/metadataConfig";
+import MetaPixel from "../components/meta-pixel";
 
 export const metadata = metadataConfig.mainLayout;
 
@@ -13,6 +14,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         className={`antialiased bg-light dark:bg-dark text-dark dark:text-light pb-10 md:pb-0 text-sm md:text-base`}>
+        <MetaPixel />
         <Navbar />
         <div className="min-h-screen pt-[75px]">
           {children}
